@@ -27,10 +27,10 @@ class Food{
         background("green")
         fill("black")
         textSize(15)
-        if(this.lastFed >= 12){
+        if(lastFed >= 12){
             text("Last fed :- " + lastFed%12 + "PM", 50, 30)
         }
-        else if(this.lastFed == 0){
+        else if(lastFed == 0){
             text("Last fed :- 12AM", 50, 30)
         }
         else{
